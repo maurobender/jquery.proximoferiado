@@ -2,15 +2,15 @@
 
 jquery.proximoferiado es un plugin de JQuery que le permite obtener la cantidad de días que faltan para el próximo feriado en su país.
 
-# Ejemplo
+# Cómo usarlo
 
 La forma más básico de invocar el plugin es sin pasarle ningún parámetro, de esta forma
-el plugin usa los parámetros que tiene por default.
+el plugin usa los parámetros que tiene por defecto.
 
 	$('#proximoferiado').proximoferiado();
 
 Ahora dentro del elemento con id proximoferiado se cargara el texto "Faltan x día(s) para el próximo feriado.",
-con x reemplazado por la cantidad de días que faltan para el príximo feriado en Argentina (país por default).
+donde x será reemplazado por la cantidad de días que faltan para el príximo feriado en Argentina (país por defecto).
 
 # Opciones
 
